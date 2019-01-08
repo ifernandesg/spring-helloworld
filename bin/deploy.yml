@@ -1,0 +1,10 @@
+---
+- hosts: [server1]
+  remote_user: ops
+  tasks:
+    - name: "Teste de Listagem"
+      shell: ls -la 
+    - name: "Copy file"
+      copy:
+        src: target/gs-spring-boot-0.1.0.jar
+        dest: /home/ops/
