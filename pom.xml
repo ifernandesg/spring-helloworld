@@ -8,7 +8,7 @@
     <version>BETA</version>
     <packaging>jar</packaging>
     
-    <name>prodam-teste</name>
+    <name>hello-world</name>
     <url>http://maven.apache.org</url>
 
     <parent>
